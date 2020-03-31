@@ -1,9 +1,0 @@
-de/ihrigb/fwla/mail/EmailSenderFilter.class
-de/ihrigb/fwla/mail/FilterResult.class
-de/ihrigb/fwla/mail/ReceivingMessageHandler$1.class
-de/ihrigb/fwla/mail/ReceivingMessageHandler.class
-de/ihrigb/fwla/mail/EmailBodyConverter.class
-de/ihrigb/fwla/mail/TextEmailBodyConverter.class
-de/ihrigb/fwla/mail/EmailBodyConvertionException.class
-de/ihrigb/fwla/mail/Email.class
-de/ihrigb/fwla/mail/EmailHandler.class
