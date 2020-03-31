@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="9" failures="0" name="de.ihrigb.fwla.mail.TextEmailBodyConverterTest" time="0.079" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/home/ihrigb/dev/tools/sapjvm_8/jre/lib/amd64"/>
+    <property name="java.vm.version" value="8.1.029 25.51-b02"/>
+    <property name="com.sap.vm.compressedoops" value="true"/>
+    <property name="java.vm.vendor" value="SAP AG"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/ihrigb/dev/opensource/fwla-core"/>
+    <property name="java.vendor.url" value="http://www.sap.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="SAP Java Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SAP_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.compressedOopsMode" value="32-bits Oops"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/ihrigb/dev/opensource/fwla-core"/>
+    <property name="com.sap.vm.codeline" value="81_REL"/>
+    <property name="java.runtime.version" value="8.1.029"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/home/ihrigb/dev/tools/sapjvm_8/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="com.sap.vm.type" value="opt"/>
+    <property name="classworlds.conf" value="/home/ihrigb/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/home/ihrigb/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/conf"/>
+    <property name="com.sap.vm.version" value="10"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.3.0-40-generic"/>
+    <property name="user.home" value="/home/ihrigb"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ihrigb"/>
+    <property name="java.class.path" value="/home/ihrigb/dev/opensource/fwla-core/.mvn/wrapper/maven-wrapper.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/home/ihrigb/dev/tools/sapjvm_8/jre"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="Feb 23 2017 10:12:12 - 81_REL - optU - linux amd64 - 6 - bas2:285715 (mixed mode)"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="/home/ihrigb/dev/tools/sapjvm_8/jre/lib/ext-sap:/home/ihrigb/dev/tools/sapjvm_8/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/home/ihrigb/dev/tools/sapjvm_8/jre/lib/resources.jar:/home/ihrigb/dev/tools/sapjvm_8/jre/lib/rt.jar:/home/ihrigb/dev/tools/sapjvm_8/jre/lib/sunrsasign.jar:/home/ihrigb/dev/tools/sapjvm_8/jre/lib/jsse.jar:/home/ihrigb/dev/tools/sapjvm_8/jre/lib/jce.jar:/home/ihrigb/dev/tools/sapjvm_8/jre/lib/charsets.jar:/home/ihrigb/dev/tools/sapjvm_8/jre/lib/jfr.jar:/home/ihrigb/dev/tools/sapjvm_8/jre/classes"/>
+    <property name="java.vendor" value="SAP AG"/>
+    <property name="maven.home" value="/home/ihrigb/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="https://support.sap.com"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="com.sap.vm.profilingserver" value="true"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="de.ihrigb.fwla.mail.TextEmailBodyConverterTest" name="testMultipartWithPlainPart" time="0.052"/>
+  <testcase classname="de.ihrigb.fwla.mail.TextEmailBodyConverterTest" name="testPlainTextMessageNullContent" time="0.003"/>
+  <testcase classname="de.ihrigb.fwla.mail.TextEmailBodyConverterTest" name="testPlainTextMultipartAlternative" time="0.003"/>
+  <testcase classname="de.ihrigb.fwla.mail.TextEmailBodyConverterTest" name="testHtmlTextMultipartAlternative" time="0.01"/>
+  <testcase classname="de.ihrigb.fwla.mail.TextEmailBodyConverterTest" name="testNonTextMultipartAlternative" time="0.005"/>
+  <testcase classname="de.ihrigb.fwla.mail.TextEmailBodyConverterTest" name="testEmptyMultipart" time="0.005"/>
+  <testcase classname="de.ihrigb.fwla.mail.TextEmailBodyConverterTest" name="testEmptyMultipartAlternative" time="0"/>
+  <testcase classname="de.ihrigb.fwla.mail.TextEmailBodyConverterTest" name="testUnknownContentType" time="0"/>
+  <testcase classname="de.ihrigb.fwla.mail.TextEmailBodyConverterTest" name="testPlainTextMessage" time="0.001"/>
+</testsuite>

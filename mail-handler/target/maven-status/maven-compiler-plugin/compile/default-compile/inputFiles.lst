@@ -1,0 +1,8 @@
+/home/ihrigb/dev/opensource/fwla-core/mail-handler/src/main/java/de/ihrigb/fwla/mail/EmailBodyConverter.java
+/home/ihrigb/dev/opensource/fwla-core/mail-handler/src/main/java/de/ihrigb/fwla/mail/EmailSenderFilter.java
+/home/ihrigb/dev/opensource/fwla-core/mail-handler/src/main/java/de/ihrigb/fwla/mail/EmailHandler.java
+/home/ihrigb/dev/opensource/fwla-core/mail-handler/src/main/java/de/ihrigb/fwla/mail/EmailBodyConvertionException.java
+/home/ihrigb/dev/opensource/fwla-core/mail-handler/src/main/java/de/ihrigb/fwla/mail/ReceivingMessageHandler.java
+/home/ihrigb/dev/opensource/fwla-core/mail-handler/src/main/java/de/ihrigb/fwla/mail/FilterResult.java
+/home/ihrigb/dev/opensource/fwla-core/mail-handler/src/main/java/de/ihrigb/fwla/mail/Email.java
+/home/ihrigb/dev/opensource/fwla-core/mail-handler/src/main/java/de/ihrigb/fwla/mail/TextEmailBodyConverter.java
