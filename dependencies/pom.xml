@@ -5,7 +5,7 @@
 
 	<groupId>de.ihrigb.fwla</groupId>
 	<artifactId>dependencies</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>FWLA Core Dependencies</name>
 	<description>Dependency management for FWLA Core libraries.</description>

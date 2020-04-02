@@ -6,14 +6,13 @@
 	<parent>
 		<groupId>de.ihrigb.fwla</groupId>
 		<artifactId>parent</artifactId>
-		<version>0.0.1</version>
+		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../parent</relativePath>
 	</parent>
 
 	<groupId>de.ihrigb.fwla</groupId>
 	<artifactId>mail-handler</artifactId>
-	<version>0.0.1</version>
-	<name>FWLA imap-handler</name>
+	<name>FWLA mail-handler</name>
 	<description>Listens to incoming mails and provides hooks to handle them.</description>
 
 	<dependencies>
