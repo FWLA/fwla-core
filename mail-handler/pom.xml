@@ -6,7 +6,6 @@
 		<groupId>de.ihrigb.fwla</groupId>
 		<artifactId>parent</artifactId>
 		<version>0.0.2-SNAPSHOT</version>
-		<relativePath>../</relativePath>
 	</parent>
 
 	<groupId>de.ihrigb.fwla</groupId>
